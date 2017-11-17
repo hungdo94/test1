@@ -12,25 +12,38 @@ body {
     color: #292b2c;
 }
 
-#cha{
+#parent {
+	position: relative;
 	background: red;
-	
+	top: 50px;
 	width: 100px;
-	height: 500px;
-	margin-top: 100px;
-	padding-bottom: 20px;
+	height: 700px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 
-	
 }
-#con{
+#child {
+	position: relative;
 	background: yellow;
 	width: 100px;
 	height: 100px;
-	margin-right: auto;
-	margin-left: auto;
-	box-sizing: inherit;
-	
+	/*top: 20px;*/
+
+}
+#con2{
+	position: fixed;
+	background: yellow;
+	width: 100px;
+	height: 100px;
+	top: 20px;
+}
+#con3{
+	position: relative;
+	background: yellow;
+	width: 100px;
+	height: 100px;
+	top: 380px;
+
 
 }
 .col-lg-10{
@@ -38,11 +51,4 @@ body {
 	flex: 0 0 80%;
 	padding-left: 20px;
 	padding-right: 100px;
-}
-.col-lg-2{
-	flex: 0 0 20%;
-	padding: re
-}
-.align-conten-center{
-	align-content: center;
 }

@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>cz</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="assets/js/bootstrap.min.js">
+	<script type="text/javascript" src="jquery-3.2.1.min.js">
+	</script>
+	<!-- <script type="text/javascript" src="jquery.hung.js">
+
+	</script> -->
+
 </head>
 <body>
-	
+
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10">
@@ -77,17 +84,53 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
-				
+			<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
 			</div>
-			<div class="col-lg-2 align-content-center">
-				<div id="cha" class="align-content-center">
-					<div id="con"></div>
-				</div>
+			<div id="parent">
+				<div id="child"></div>
 			</div>
 		</div>
+		</div>
 	</div>
-	
-	
-<script src="assets/js/plugin.js"></script>
+
+	<script type="text/javascript" src="jquery.hung.js">
+
+	</script>
+	<!-- <script type="text/javascript" src="jquery-3.2.1.min.js"> -->
+
+	</script>
+	<script type="text/javascript">
+			var topDis = 20;
+			$(document).ready(function() {
+					$('#child').inner_float({
+							topDistance:topDis
+					});
+			});
+	</script>
+
 </body>
 </html>
